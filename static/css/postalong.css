@@ -1,0 +1,164 @@
+body{
+	background-color: #fff;
+}
+.clearfix::after{
+	content: "";
+	overflow: hidden;
+	clear: both;
+	visibility: visible;
+	display: block;
+}
+.f-lt{
+	float: left;
+}
+.f-rt{
+	float: right;
+}
+/*头部*/
+.g-hd{
+	background-color: #1EC55A;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	text-align: center;
+}
+.m-title{
+	font-size: 0.2rem;
+	color: #fff;
+	font-weight: bold;
+}
+/*主体*/
+.g-content{
+	text-align: center;
+}
+.g-content,.g-ft{
+	width: 90%;
+	margin: 0 auto;
+}
+.m-mail{
+	text-align: center;
+	padding: .2rem 0;
+}
+.m-mail .u-mail{
+	width: 1.5rem;
+	height: 1.2rem;
+}
+.m-msg .u-msg-detail{
+	color: #21ABCB;
+	font-size: .23rem;
+	white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.m-msg .u-msg-tips{
+	padding: .2rem 0;
+	line-height: .2rem;
+	font-size: .12rem;
+}
+/*注册*/
+.u-phone-title .u-sign{
+	color:#21ABCB
+}
+.u-phone-title .u-title-text{
+	color: #6C6C6C;
+	font-size: .13rem;
+}
+.m-register-ipt{
+	margin-top: .1rem;
+}
+.u-phone-ll{
+	position: relative;
+	border-top-left-radius: .05rem;
+	border-bottom-left-radius: .05rem;
+	display: inline-block;
+	height: .45rem;
+	width: 1rem;
+	background-color: #EEEEEE;
+	vertical-align: middle;
+	text-align: center;
+	line-height: .45rem;
+	font-size: .18rem;
+	box-shadow: 0px 0px .5px #ddd;
+	border: 1px solid #ddd;
+}
+.u-up-arrow,.u-down-arrow{
+	position: absolute;
+	right: .05rem;
+	width: 0;
+	height: 0;
+	border-width: .08rem .05rem;
+	border-style: solid;
+}
+.u-up-arrow{
+	top: 10%;
+	border-color: transparent transparent  #333 transparent ; 
+}
+.u-down-arrow{
+	bottom: 10%;
+	border-color: #333 transparent transparent transparent; 
+}
+.u-phone-ipt{
+	overflow: hidden;
+	box-shadow: 0px 0px .5px #ddd;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+.u-phone-ipt input{
+	outline: none;
+	display: block;
+	height: .45rem;
+	overflow: hidden;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: .2rem;
+	color: #ddd;
+	padding: 0 .1rem;
+	letter-spacing: .03rem;
+	font-weight: 200;
+	border: none;
+}
+.m-register .u-btn{
+	text-align: center
+}
+.m-phone-code{
+	overflow: hidden;
+}
+.m-phone-code .u-phone-ipt{
+	width: 50%;
+	display: inline-block;
+}
+.u-code-btn{
+	background-color: #eee;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 1px #ddd;
+	height: 100%;
+	line-height: .45rem;
+	width: 45%;
+	text-align: center;
+	border-radius: .1rem;
+	font-size: .15rem;
+	color: #333;
+}
+.m-phone-code .z-code-btn-hover{
+	color: #21ABCB;
+}
+.u-post-btn{
+	margin-top: .2rem;
+	text-align: center;
+	background-color: #B5E8F2;
+	height: .5rem;
+	line-height: .5rem;
+	border-radius: 5px;
+	font-size: .2rem;
+	color: #fff;
+	font-weight: bolder;
+	letter-spacing: .1rem;
+	display: block;
+	width: 100%;
+	border:none;
+	margin-bottom: .5rem;
+}
+
+

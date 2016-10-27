@@ -1,0 +1,99 @@
+body{
+	background-color: #fff;
+}
+.clearfix::after{
+	content: "";
+	overflow: hidden;
+	clear: both;
+	visibility: visible;
+	display: block;
+}
+.g-head-wrap{
+	width: 100%;
+	height: 0.5rem;
+	position: relative;
+	text-align: center;
+	line-height: 0.5rem;
+	font-size: .2rem;
+	background-color: #f9f9f9;
+}
+.left{
+	float: left;
+}
+.head-close{
+	position: absolute;
+	left: 0.2rem;
+	font-size: .2rem;
+	padding: 0 .1rem;
+}
+.head-close a{
+	display: block;
+}
+.g-content-wrap{
+	width: 100%;
+	text-align: center;
+}
+.g-content-wrap img{
+	margin:auto;
+}
+.g-content-wrap .mail-img{
+	width: 2rem;
+	height: 1.2rem;
+	margin-top: 1rem;
+}
+.g-content-wrap .content-intro{
+	width: 90%;
+	margin: auto;
+}
+.content-intro .content-intro-title{
+	font-weight: bold;
+	font-size: .18rem;
+}
+.content-intro .content-intro-content{
+	font-size: .12rem;
+	margin-top: 0.08rem;
+	color:#6b6b76;
+}
+.content-intro .content-intro-content a{
+	color: #1fbad6;
+}
+.content-foot{
+	margin-top: 1rem;
+}
+.content-foot .content-foot-title{
+	color: #a0a0a6;
+	font-size: .12rem;
+}
+.content-foot .content-foot-content{
+	font-size: .2rem;
+	font-weight: bold;
+}
+.g-foot-wrap{
+	width: 100%;
+	margin-bottom: .25rem;
+}
+.g-foot-wrap .g-foot{
+	width: 2.6rem;
+	margin: auto;
+	margin-top:0.2rem;
+	overflow: hidden;
+	font-size: .15rem;
+	font-weight: lighter;
+}
+.button{
+	width: 1.2rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	display: block;
+	text-align: center;
+	border-radius: 5px;	
+}
+.foot-show{
+	color:#ffffff;
+	background-color: #ff7f27;
+}
+.foot-share{
+	margin-left: 0.2rem;
+	color:#ffffff;
+	background-color: #2bd75f;
+}
